@@ -18,6 +18,10 @@
 		"osx-mojave",
 		"electron-them"
 	],
+	"author": {
+		"name": "Anubhav Srivastava",
+		"email": "anubhav.srivastava00@gmail.com"
+	},
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/anubhavsrivastava/electron-osx-settings/issues"
