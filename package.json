@@ -4,7 +4,10 @@
 	"description": "Simple API for OSX UI/theme settings from electron app",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"test:coverage": "jest --coverage",
+		"coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
 	},
 	"repository": {
 		"type": "git",
@@ -26,5 +29,9 @@
 	"bugs": {
 		"url": "https://github.com/anubhavsrivastava/electron-osx-settings/issues"
 	},
-	"homepage": "https://github.com/anubhavsrivastava/electron-osx-settings#readme"
+	"homepage": "https://github.com/anubhavsrivastava/electron-osx-settings#readme",
+	"devDependencies": {
+		"coveralls": "^3.0.2",
+		"jest": "^23.6.0"
+	}
 }
