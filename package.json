@@ -1,0 +1,26 @@
+{
+	"name": "electron-osx-settings",
+	"version": "0.1.0",
+	"description": "Simple API for OSX UI/theme settings from electron app",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anubhavsrivastava/electron-osx-settings.git"
+	},
+	"keywords": [
+		"electron",
+		"electron-osx",
+		"electron-darkmode",
+		"electron-settings",
+		"osx-mojave",
+		"electron-them"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anubhavsrivastava/electron-osx-settings/issues"
+	},
+	"homepage": "https://github.com/anubhavsrivastava/electron-osx-settings#readme"
+}
