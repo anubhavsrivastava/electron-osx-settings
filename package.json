@@ -32,6 +32,6 @@
 	"homepage": "https://github.com/anubhavsrivastava/electron-osx-settings#readme",
 	"devDependencies": {
 		"coveralls": "^3.0.2",
-		"jest": "^23.6.0"
+		"jest": "^29.3.1"
 	}
 }
